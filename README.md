@@ -1,3 +1,18 @@
+# Instructions
+1. Download parameters:
+
+```
+wget https://github.com/decompositional-semantics-initiative/ParaBank-rewriter/releases/download/v0.1/params.best
+```
+
+2. Run on the example files in this repo:
+
+```
+./score.sh test_source.txt test_target.txt
+```
+
+# Original README.md below
+
 This is the rewriter model described in ParaBank (Hu et al. 2019).
 
 Required packages are listed in `requirement.txt`. Please download `params.best` from the project website and place it under this directory.
