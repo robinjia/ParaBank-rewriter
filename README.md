@@ -8,8 +8,16 @@ wget https://github.com/decompositional-semantics-initiative/ParaBank-rewriter/r
 2. Run on the example files in this repo:
 
 ```
-./score.sh test_source.txt test_target.txt
+./score.sh test_source.txt test_target.txt > scores.txt
 ```
+
+It will print out a lot of logging messages to stderr.
+If you redirect stdout to a file, it will be tab-separated with 1 line per line in the inputs, and columns denoting
+
+```
+negative loglikelihood<TAB>tokenized source<TAB>tokenized target
+```
+
 
 # Original README.md below
 
